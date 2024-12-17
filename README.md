@@ -28,7 +28,9 @@ Antes de empezar, asegúrate de tener instalado lo siguiente:
    cd pedidos-frontend
 2. **Instala las dependencias:* npm i*
 
-3.**🗂️ Estructura del Proyecto**
+3.**🗂️ Estructura del Proyecto**:
+
+```bash
  src/
 ├── components/       # Componentes de React para vistas específicas
 │   ├── Articulos.jsx       # Página de artículos
@@ -39,6 +41,7 @@ Antes de empezar, asegúrate de tener instalado lo siguiente:
 ├── App.jsx           # Definición de rutas principales
 ├── main.jsx          # Punto de entrada de React
 ├── index.css         # Estilos globales con Tailwind CSS
+```
 
 4. **🔗 API Endpoints**:
 Los siguientes endpoints deben estar disponibles desde el backend:

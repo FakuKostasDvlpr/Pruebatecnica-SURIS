@@ -1,4 +1,4 @@
-# Pedidos Frontend
+# Sistema de Pedidos 
 
 Este proyecto es una aplicación de frontend desarrollada con **React** y configurada con **Vite**. Su propósito es interactuar con una API de backend para gestionar **artículos**, **vendedores** y **pedidos**.
 

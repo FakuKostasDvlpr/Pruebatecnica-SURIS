@@ -60,6 +60,7 @@ GET /api/Pedido: Devuelve todos los pedidos existentes.
 5. ** 🧪 Ejemplo de Datos**:
 `Crear Pedido`
 JSON de ejemplo para enviar al endpoint POST /api/Pedido:
+```bash
 `{
   "vendedorId": 1,
   "detalles": [
@@ -74,14 +75,18 @@ JSON de ejemplo para enviar al endpoint POST /api/Pedido:
   ],
   "fecha": "2024-12-14"
 }`
+```
+7. **🛠️ Herramientas Utilizadas**
+```bash
 
-6. **🛠️ Herramientas Utilizadas**
 FRONT END
 React: Biblioteca para crear interfaces de usuario.
 Vite: Herramienta de desarrollo rápida para React.
 Tailwind CSS: Framework de CSS para estilos rápidos y personalizables.
 Axios: Cliente HTTP para interactuar con la API.
 React Router DOM: Manejo de rutas en la aplicación.
+```
+```bash
 
 BACKEND
 Entity Framework Core: ORM para manejar la base de datos.
@@ -89,3 +94,5 @@ SQLite: Base de datos liviana y fácil de configurar.
 Newtonsoft.Json: Para trabajar con datos JSON (serialización/deserialización).
 Swagger: Para documentar y probar la API.
 Herramientas de desarrollo para EF Core: Para gestionar migraciones y base de datos
+```
+
